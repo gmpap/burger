@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "burger app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmpap/burger.git"
+  },
+  "author": "George Pap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmpap/burger/issues"
+  },
+  "homepage": "https://github.com/gmpap/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.17.1"
+  }
+}
